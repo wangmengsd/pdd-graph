@@ -1,4 +1,4 @@
-# pdd-graph
+# pdd-graph： Patient-Disease-Drug Graph
 What is PDD Graph (Patient-Disease-Drug Graph):
 
 Electronic medical records contain multi-format electronic medical data that consist of an abundance of medical knowledge. Facing with patients symptoms, experienced caregivers make right medical decisions based on their professional knowledge that accurately grasps

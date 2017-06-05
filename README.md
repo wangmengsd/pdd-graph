@@ -13,8 +13,8 @@ A subgraph of PDD is illustrated in the followng figure to betterunderstand the 
 
 [Website](http://kmap.xjtudlc.com/pdd)
 
-[DataHub URL](http://kmap.xjtudlc.com/pdd)
+[DataHub URL](https://datahub.io/tl/dataset/pdd-graph)
 
-[Data dump](http://kmap.xjtudlc.com/pdd)
+[Data dump](http://kmap.xjtudlc.com/pdd/data/pdd_nt.zip)
 
-[SPARQL endpoint](http://kmap.xjtudlc.com/pdd)
+[SPARQL endpoint](http://kmap.xjtudlc.com/pdd/dataset.html?tab=query&ds=/pdd)

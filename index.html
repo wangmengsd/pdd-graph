@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>PDD Graph</title>
+    <meta name="description" content="MIMIC-III to Linked Data Cloud">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <link href="css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="my/style.css">
+  </head>
+  <body style="position: static;">
+    <section class="page-header">
+      <h1 class="project-name"><a href="index.html" style="color: white">PDD Graph</a></h1>
+      <h2 class="project-tagline">PDD Graph is a Patient-Disease-Drug Graph, Bridging MIMIC-III and Linked Data Cloud.</h2>
+      
+        <a href="index.html" class="btn">Document</a>  
+        <a href="index.html#download" class="btn">Download</a>
+        <a href="index.html#sparql-endpoint" class="btn">Online Query</a>
+        <a href="Tutorial.html" class="btn">Tutorial</a>
+        <a href="Ontology.html" class="btn">Ontology</a>
+        <a href="Ontology.html" class="btn">Ontology</a>
+
+        
+      
+    </section>
+
+<section class="main-content">
+
+
+<h1 id="Introduction">Introduction</h1>
+
+<p>What is <strong>PDD Graph</strong> (Patient-Disease-Drug Graph):</p>
+
+<p> Electronic medical records contain multi-format electronic medical data that consist of an abundance of medical knowledge. Facing with patients symptoms, experienced caregivers make right medical decisions based on their professional knowledge that accurately grasps relationships between symptoms, diagnosis, and treatments. We aim to capture these relationships by constructing a large and high-quality heterogeneous graph linking patients, diseases, and drugs (PDD) in EMRs.</p>
+
+<p> Specifically, we extract important medical entities from MIMIC-III (Medical Information Mart for Intensive Care III) and automatically link them with the existing biomedical knowledge graphs, including ICD-9 ontology and DrugBank. The PDD graph presented is accessible on the Web via the SPARQL endpoint, and provides a pathway for medical discovery and applications, such as effective treatment recommendations.</p>
+
+<p> A subgraph of PDD is illustrated in the followng figure to betterunderstand the PDD graph.</p>
+
+<img src="my/simple-graph.png" alt="A subgraph of PDD">
+
+
+<h1 id="download">Download</h1>
+
+<p>You can download it from different places. We offer two different formats in this site .</p>
+<h4><a href="data/pdd_nt.zip"  >Format 1：N-Triples</a></h4>
+RDF data files ended by <em>.nt</em>. 
+<h4><a href="data/pdd_jena_tdb.zip"  >Format 2：Apache Jena</a></h4>
+Formatted by Apache Jena TDB , you can user it in Jena API.
+
+<h3>Download elsewhere</h3>
+<ul>
+  <li><a href="https://datahub.io/dataset/pdd-graph" >Datahub </a></li>
+</ul>
+
+<h1 id="sparql-endpoint">Online Query</h1>
+
+<p>We provide the online query function, you can click <a href="http://kmap.xjtudlc.com/pdd/dataset.html?tab=query&ds=/pdd" target="_blank"><strong>here</strong></a> to online query.</p>
+
+<p>If you are unfamiliar with the SPARQL query or unfamiliar with online queries, we provide several simple examples in <a href="Tutorial.html"  ><strong>Tutorial</strong></a>
+.</p>
+
+<h1>Friendly Link</h1>
+<p>Our data uses other data, so we make a statement here.</p>
+
+<ul>
+  <li><a href="https://mimic.physionet.org/" target="_blank" >MIMIC-III</a></li>
+  <li><a href="http://bio2rdf.org/" target="_blank" >Bio2RDF </a></li>
+  <li><a href="https://datahub.io/dataset/bio2rdf-drugbank" target="_blank" >DrugBank   </a></li>
+  <li><a href="http://bioportal.bioontology.org/ontologies/ICD9CM" target="_blank" >ICD-9 ontology   </a></li>
+</ul>
+<h1 id="License">License</h1>
+
+<div class="" style=";text-align:center">
+    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png"></a><br>
+    <br>
+    This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. 
+</div>
+
+
+</section>
+</body>
+</html>

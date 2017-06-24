@@ -1,4 +1,5 @@
 # PDD Graph： Patient-Disease-Drug Graph, Bridging MIMIC-III and Linked Data Cloud
+
 What is PDD Graph (Patient-Disease-Drug Graph):
 
 Electronic medical records contain multi-format electronic medical data that consist of an abundance of medical knowledge. Facing with patients symptoms, experienced caregivers make right medical decisions based on their professional knowledge that accurately grasps
@@ -10,6 +11,10 @@ Specifically, we extract important medical entities from MIMIC-III (Medical Info
 A subgraph of PDD is illustrated in the followng figure to betterunderstand the PDD graph.
 
 <div align=center> <img width="750" height="300" src="https://github.com/wangmengsd/pdd-graph/blob/master/example.png"/></div>
+
+# More Information 
+
+[Github Pages](https://wangmengsd.github.io/pdd-graph/)
 
 [Website](http://kmap.xjtudlc.com/pdd)
 

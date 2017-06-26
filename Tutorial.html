@@ -28,13 +28,69 @@
 
 <h1 >Tutorial</h1>
 
+        <h4>Tutorial at a glance</h4>
+
+        <ul>
+            <li><a href="#example" title="">Sparql Search Examples</a></li>
+            <li><a href="#Online" title="">Online Query</a></li>
+            <li><a href="#Coding" title="">Coding by yourself</a></li>
+        </ul>
+
 <p>Our data set provides the sparql endpoint, so you can use any programming language to query, based on the HTTP protocol.</p>
 <p>Below we provide examples of online queries or queries using a programming language such as Python, Java ...</p>
 
 
-<h3>Sparql Examples</h3>
+<h3 id="example">Sparql Search Examples</h3>
 
-<h3>Online Query</h3>
+    <p>1. Amount of Patients that suffered from Sepsis (ICD9CM ID: 995.91)</p>
+    <p>
+        <pre><code>
+        SELECT  (COUNT (?subject) AS ?amount)
+        WHERE {
+            ?subject ?predicate &lt;http://purl.bioontology.org/ontology/ICD9CM/995.91&gt;
+        }
+    </code></pre>
+
+    </p>
+    <img src="my/example1.png" alt="">
+
+    <p>2. Drugs that patients suffered from Sepsis took</p>
+    <p>
+    <pre><code>
+    SELECT ?subject ?drugid
+    WHERE {
+      ?subject ?predicate &lt;http://purl.bioontology.org/ontology/ICD9CM/995.91&gt;.
+      ?subject &lt;http://kmap.xjtudlc.com/pdd_data/property/take_drugbank_id&gt; ?drugid
+    }
+    </code></pre>
+    </p>
+        <img src="my/example2.png" alt="">
+
+    <p>3. Patients that suffered from Sepsis and took Insulin Human (DrugBank ID: DB00030) </p>
+    <p>
+    <pre><code>
+    SELECT ?subject
+    WHERE {
+      ?subject ?predicate &lt;http://purl.bioontology.org/ontology/ICD9CM/995.91&gt;.
+      ?subject &lt;http://kmap.xjtudlc.com/pdd_data/property/take_drugbank_id&gt; &lt;http://bio2rdf.org/drugbank:DB00030&gt;
+    }
+    </code></pre>
+    </p>
+        <img src="my/example3.png" alt="">
+
+    <p>4. Amount of drugs that each patient suffered from Sepsis took</p>
+    <p>
+    <pre><code>
+    SELECT ?subject (COUNT (?drugid)AS ?amount)
+    WHERE {
+      ?subject ?predicate &lt;http://purl.bioontology.org/ontology/ICD9CM/995.91&gt;.
+      ?subject &lt;http://kmap.xjtudlc.com/pdd_data/property/take_drugbank_id&gt; ?drugid
+    }
+    GROUP BY ?subject
+    </code></pre>
+    </p>
+        <img src="my/example4.png" alt="">
+<h3 id="Online">Online Query</h3>
 
 <p>First, Open the <a href="http://kmap.xjtudlc.com/pdd/dataset.html?tab=query&ds=/pdd" target="_blank">website</a></p>  
 
@@ -47,7 +103,7 @@
 <img src="my/use2.png" alt="">
 
 
-<h3>Coding by yourself</h3>
+<h3 id="Coding">Coding by yourself</h3>
 
 <p>No matter what language you use, you can send a <em>post request</em> to the endpoint with the unique parameter <em>query</em>, and you can get the answer.</p>
 

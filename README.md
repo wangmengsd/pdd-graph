@@ -53,6 +53,10 @@ Our data uses other data, so we make a statement here.
 
 This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
 
+# Contact
+
+<li>Meng Wang <a href="mailto:wangmengsd@stu.xjtu.edu.cn">wangmengsd@stu.xjtu.edu.cn</a></li>
+
 # Update
 
 *   ### V1.2

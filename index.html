@@ -5,7 +5,6 @@
     <meta name="description" content="MIMIC-III to Linked Data Cloud">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
-    <link href="css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="my/style.css">
   </head>
   <body style="position: static;">
@@ -20,13 +19,15 @@
         <a href="Ontology.html" class="btn">Ontology</a>
         <a href="https://github.com/wangmengsd/pdd-graph" class="btn">View On Github</a>
 
-
-
     </section>
 
 <section class="main-content">
+    <h1 >The latest news </h1>
 
-
+    <p>We have released version 1.2.</p>
+    <p>In the new version, we have eliminated an engineering bug that was made when label matching of ICD-9 codes. This bug results in the linking failures of 380 diseases in MIMIC-III.</p>
+    <p> For diseases in the latest PDD version, the overall number of diseases is 6985, and 6,984 diseases are connected to ICD-9 ontology. The only failed matching code is‘71970’, which is not included in ICD-9 ontology.
+    </p>
 <h1 id="Introduction">Introduction</h1>
 
 <p>What is <strong>PDD Graph</strong> (Patient-Disease-Drug Graph):</p>
@@ -35,7 +36,7 @@
 
 <p> Specifically, we extract important medical entities from MIMIC-III (Medical Information Mart for Intensive Care III) and automatically link them with the existing biomedical knowledge graphs, including ICD-9 ontology and DrugBank. The PDD graph presented is accessible on the Web via the SPARQL endpoint, and provides a pathway for medical discovery and applications, such as effective treatment recommendations.</p>
 
-<p> A subgraph of PDD is illustrated in the followng figure to betterunderstand the PDD graph.</p>
+<p> A subgraph of PDD is illustrated in the following figure to better understand the PDD graph.</p>
 
 <img src="my/simple-graph.png" alt="A subgraph of PDD">
 
@@ -75,8 +76,25 @@ Formatted by Apache Jena TDB , you can user it in Jena API.
     <br>
     This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
 </div>
+    <h1 id="update">Update</h1>
+<ul>
+    <li>
+        <h3>V1.2</h3>
+        <p>Fix the bugs in "diagnose_icd_information.nt".</p>
+        <p>In the new version, we have eliminated an engineering bug that was made when label matching of ICD-9 codes. This bug results in the linking failures of 380 diseases in MIMIC-III.</p>
+        <p> For diseases in the latest PDD version, the overall number of diseases is 6985, and 6,984 diseases are connected to ICD-9 ontology. The only failed matching code is‘71970’, which is not included in ICD-9 ontology.
+        </p>
+    </li>
+    <li>
+        <h3>V1.1</h3>
+        <p> Add Patient BMI data.</p>
+    </li>
 
+</ul>
 
 </section>
+    <div class="row" style='margin-top:30px;' >
+        <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=400&t=tt&d=stndUCBqkPaLVloo9avGsGyT-fInthOJmAyUA2GPQko"></script>
+    </div>
 </body>
 </html>

@@ -1,16 +1,71 @@
 # PDD Graph： Patient-Disease-Drug Graph, Bridging MIMIC-III and Linked Data Cloud
 
-What is PDD Graph (Patient-Disease-Drug Graph):
+# The latest news
 
-Electronic medical records contain multi-format electronic medical data that consist of an abundance of medical knowledge. Facing with patients symptoms, experienced caregivers make right medical decisions based on their professional knowledge that accurately grasps
-relationships between symptoms, diagnosis, and treatments. We aim to capture these relationships by constructing a large and
-high-quality heterogeneous graph linking patients, diseases, and drugs (PDD) in EMRs. 
+We have released version 1.2
+
+In the new version, we have eliminated an engineering bug that was made when label matching of ICD-9 codes. This bug results in the linking failures of 380 diseases in MIMIC-III.
+
+For diseases in the latest PDD version, the overall number of diseases is 6985, and 6,984 diseases are connected to ICD-9 ontology. The only failed matching code is‘71970’, which is not included in ICD-9 ontology.
+
+# Introduction
+
+What is **PDD Graph** (Patient-Disease-Drug Graph):
+
+Electronic medical records contain multi-format electronic medical data that consist of an abundance of medical knowledge. Facing with patients symptoms, experienced caregivers make right medical decisions based on their professional knowledge that accurately grasps relationships between symptoms, diagnosis, and treatments. We aim to capture these relationships by constructing a large and high-quality heterogeneous graph linking patients, diseases, and drugs (PDD) in EMRs.
 
 Specifically, we extract important medical entities from MIMIC-III (Medical Information Mart for Intensive Care III) and automatically link them with the existing biomedical knowledge graphs, including ICD-9 ontology and DrugBank. The PDD graph presented is accessible on the Web via the SPARQL endpoint, and provides a pathway for medical discovery and applications, such as effective treatment recommendations.
 
-A subgraph of PDD is illustrated in the followng figure to betterunderstand the PDD graph.
+A subgraph of PDD is illustrated in the following figure to better understand the PDD graph.
 
-<div align=center> <img width="750" height="300" src="https://github.com/wangmengsd/pdd-graph/blob/master/example.png"/></div>
+![](my/simple-graph.png)
+
+# Download
+
+You can download it from different places. We offer two different formats in this site .
+
+#### [Format 1：N-Triples](http://kmap.xjtudlc.com/pdd/data/pdd_nt.zip)
+
+RDF data files ended by _.nt_.
+
+#### [Format 2：Apache Jena](http://kmap.xjtudlc.com/pdd/data/pdd_jena_tdb.zip)
+
+Formatted by Apache Jena TDB , you can user it in Jena API.
+
+### Download elsewhere
+
+*   [Datahub](https://datahub.io/dataset/pdd-graph)
+
+# Friendly Link
+
+Our data uses other data, so we make a statement here.
+
+*   [MIMIC-III](https://mimic.physionet.org/)
+*   [Bio2RDF](http://bio2rdf.org/)
+*   DrugBank
+    *   [version 1](https://datahub.io/dataset/bio2rdf-drugbank)
+    *   [version 2](http://wifo5-03.informatik.uni-mannheim.de/drugbank/)
+*   [ICD-9 ontology](http://bioportal.bioontology.org/ontologies/ICD9CM)
+
+# License
+
+[![](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
+
+This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+
+# Update
+
+*   ### V1.2
+
+    Fix the bugs in "diagnose_icd_information.nt".
+
+    In the new version, we have eliminated an engineering bug that was made when label matching of ICD-9 codes. This bug results in the linking failures of 380 diseases in MIMIC-III.
+
+    For diseases in the latest PDD version, the overall number of diseases is 6985, and 6,984 diseases are connected to ICD-9 ontology. The only failed matching code is‘71970’, which is not included in ICD-9 ontology.
+
+*   ### V1.1
+
+    Add Patient BMI data.
 
 # More Information 
 

@@ -6,7 +6,7 @@ We have released version 1.2
 
 In the new version, we have eliminated an engineering bug that was made when label matching of ICD-9 codes. This bug results in the linking failures of 380 diseases in MIMIC-III.
 
-For diseases in the latest PDD version, the overall number of diseases is 6985, and 6,984 diseases are connected to ICD-9 ontology. The only failed matching code is‘71970’, which is not included in ICD-9 ontology.
+For diseases in the latest PDD version, the overall number of diseases is 6985, and 6,984 diseases are connected to ICD-9 ontology. The only failed matching code are '71970' and 'NULL', which are not included in ICD-9 ontology.
 
 # Introduction
 
@@ -65,8 +65,7 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 
     In the new version, we have eliminated an engineering bug that was made when label matching of ICD-9 codes. This bug results in the linking failures of 380 diseases in MIMIC-III.
 
-    For diseases in the latest PDD version, the overall number of diseases is 6985, and 6,984 diseases are connected to ICD-9 ontology. The only failed matching code is‘71970’, which is not included in ICD-9 ontology.
-
+    For diseases in the latest PDD version, the overall number of diseases is 6985, and 6,984 diseases are connected to ICD-9 ontology. The only failed matching code are '71970' and 'NULL', which are not included in ICD-9 ontology.
 *   ### V1.1
 
     Add Patient BMI data.

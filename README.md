@@ -10,6 +10,15 @@ For diseases in the latest PDD version, the overall number of diseases is 6985, 
 
 # Introduction
 
+The **gap** between clinical data and biomedical knowledge graphs:
+  * An EMR database, MIMIC-III: contains multi-format electronic data but remains limitations in scope.
+  * Biomedical KGs: cover basic medical facts, but contain little information about clinical outcomes.
+
+The gap between clinical data and biomedical KGs prohibits further exploring medical entity relationships on ether side, as shown in the following figure:
+
+![](my/intro.jpg)
+
+
 What is **PDD Graph** (Patient-Disease-Drug Graph):
 
 Electronic medical records contain multi-format electronic medical data that consist of an abundance of medical knowledge. Facing with patients symptoms, experienced caregivers make right medical decisions based on their professional knowledge that accurately grasps relationships between symptoms, diagnosis, and treatments. We aim to capture these relationships by constructing a large and high-quality heterogeneous graph linking patients, diseases, and drugs (PDD) in EMRs.
@@ -38,7 +47,7 @@ Formatted by Apache Jena TDB , you can user it in Jena API.
 
 # Friendly Link
 
-Our data uses other data, so we make a statement here.
+Our data uses other resources, so we make a statement here.
 
 *   [MIMIC-III](https://mimic.physionet.org/)
 *   [Bio2RDF](http://bio2rdf.org/)

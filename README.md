@@ -27,7 +27,7 @@ Specifically, we extract important medical entities from MIMIC-III (Medical Info
 
 A subgraph of PDD is illustrated in the following figure to better understand the PDD graph.
 
-![](my/simple-graph.png)
+![](my/simple-graph2.png)
 
 # Download
 

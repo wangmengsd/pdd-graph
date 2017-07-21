@@ -8,7 +8,7 @@ In the new version, we have eliminated an engineering bug that was made when lab
 
 For diseases in the latest PDD version, the overall number of diseases is 6985, and 6,983 diseases are connected to ICD-9 ontology. The only two failed matching codes are '71970' and 'NULL', which are not included in ICD-9 ontology.
 
-# Quote
+# Note
 
 If you use PDD Graph data in your work, please cite the following publication:
 

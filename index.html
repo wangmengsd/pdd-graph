@@ -42,15 +42,27 @@
 
 <h1 id="Introduction">Introduction</h1>
 
-<p>What is <strong>PDD Graph</strong> (Patient-Disease-Drug Graph):</p>
+    The <strong>gap</strong> between clinical data and biomedical knowledge graphs:
+    <ul>
+        <li>An EMR database, MIMIC-III: contains multi-format electronic data but remains limitations in scope.</li>
+        <li>Biomedical KGs: cover basic medical facts, but contain little information about clinical outcomes.</li>
+    </ul>
 
-<p> Electronic medical records contain multi-format electronic medical data that consist of an abundance of medical knowledge. Facing with patients symptoms, experienced caregivers make right medical decisions based on their professional knowledge that accurately grasps relationships between symptoms, diagnosis, and treatments. We aim to capture these relationships by constructing a large and high-quality heterogeneous graph linking patients, diseases, and drugs (PDD) in EMRs.</p>
+    <p>The gap between clinical data and biomedical KGs prohibits further exploring medical entity relationships on ether side, as shown in the following figure:</p>
 
-<p> Specifically, we extract important medical entities from MIMIC-III (Medical Information Mart for Intensive Care III) and automatically link them with the existing biomedical knowledge graphs, including ICD-9 ontology and DrugBank. The PDD graph presented is accessible on the Web via the SPARQL endpoint, and provides a pathway for medical discovery and applications, such as effective treatment recommendations.</p>
+    <img src="my/intro.jpg" alt="intro">
 
-<p> A subgraph of PDD is illustrated in the following figure to better understand the PDD graph.</p>
 
-<img src="my/simple-graph.png" alt="A subgraph of PDD">
+   <p> What is <strong>PDD Graph</strong> (Patient-Disease-Drug Graph):</p>
+
+   <p> Electronic medical records contain multi-format electronic medical data that consist of an abundance of medical knowledge. Facing with patients symptoms, experienced caregivers make right medical decisions based on their professional knowledge that accurately grasps relationships between symptoms, diagnosis, and treatments. We aim to capture these relationships by constructing a large and high-quality heterogeneous graph linking patients, diseases, and drugs (PDD) in EMRs.</p>
+
+    <P>Specifically, we extract important medical entities from MIMIC-III (Medical Information Mart for Intensive Care III) and automatically link them with the existing biomedical knowledge graphs, including ICD-9 ontology and DrugBank. The PDD graph presented is accessible on the Web via the SPARQL endpoint, and provides a pathway for medical discovery and applications, such as effective treatment recommendations.</p>
+
+    <p>A subgraph of PDD is illustrated in the following figure to better understand the PDD graph.</p>
+
+    <img src="my/simple-graph2.png" alt="A subgraph of PDD">
+
 
 
 <h1 id="download">Download</h1>

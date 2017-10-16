@@ -77,6 +77,9 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 
 <li>Meng Wang <a href="mailto:wangmengsd@stu.xjtu.edu.cn">wangmengsd@stu.xjtu.edu.cn</a></li>
 
+<li>Lei Shi <a href="mailto:me@xjtushilei.com">me@xjtushilei.com</a></li>
+
+
 # Update
 
 *   ### V1.2

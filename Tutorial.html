@@ -33,11 +33,11 @@
         <ul>
             <li><a href="#Online" title="">Online Query</a></li>
             <li><a href="#Coding" title="">Coding by yourself</a></li>
-            <li><a href="#example" title="">Sparql Search Examples</a></li>
+            <li><a href="#example" title="">SPARQL Query Examples</a></li>
         </ul>
 
 <p>Our data set provides the sparql endpoint, so you can use any programming language to query, based on the HTTP protocol.</p>
-<p>Below we provide examples of online queries or queries using a programming language such as Python, Java ...</p>
+<p>Here, we provide examples of online queries or queries using a programming language such as Python, Java ...</p>
 
         <h3 id="Online">Online Query</h3>
 
@@ -65,9 +65,9 @@
 
         <img src="my/python.png" alt="python example">
 
-<h3 id="example">Sparql Search Examples</h3>
+<h3 id="example">SPARQL Query Examples</h3>
 
-    <p>1. Amount of Patients that suffered from Sepsis (ICD9CM ID: 995.91)</p>
+    <p>1. The amount of patients who suffered from Sepsis (ICD9CM ID: 995.91)</p>
     <p>
         <pre><code>
         SELECT  (COUNT (?subject) AS ?amount)
@@ -79,7 +79,7 @@
     </p>
     <img src="my/example1.png" alt="">
 
-    <p>2. Drugs that patients suffered from Sepsis took</p>
+    <p>2. Returning drugs that Sepsis patients had taken</p>
     <p>
     <pre><code>
     SELECT ?subject ?drugid
@@ -91,7 +91,7 @@
     </p>
         <img src="my/example2.png" alt="">
 
-    <p>3. Patients that suffered from Sepsis and took Insulin Human (DrugBank ID: DB00030) </p>
+    <p>3. Return patients that suffered from Sepsis and took Insulin Human (DrugBank ID: DB00030) </p>
     <p>
     <pre><code>
     SELECT ?subject
@@ -103,7 +103,7 @@
     </p>
         <img src="my/example3.png" alt="">
 
-    <p>4. Amount of drugs that each patient suffered from Sepsis took</p>
+    <p>4. The amount of drugs that each patient Sepsis suffered had taken</p>
     <p>
     <pre><code>
     SELECT ?subject (COUNT (?drugid)AS ?amount)

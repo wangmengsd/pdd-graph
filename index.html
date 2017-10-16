@@ -14,7 +14,7 @@
       <h1 class="project-name"><a href="index.html" style="color: white">PDD Graph</a></h1>
       <h2 class="project-tagline">PDD Graph is a Patient-Disease-Drug Graph, Bridging MIMIC-III and Linked Data Cloud.</h2>
 
-        <a href="index.html" class="btn">Introduction</a>
+        <a href="index.html#Introduction" class="btn">Introduction</a>
         <a href="index.html#download" class="btn">Download</a>
         <a href="http://kmap.xjtudlc.com/pdd/dataset.html?tab=query&ds=/pdd" target="_blank" class="btn">Online Query</a>
         <a href="Tutorial.html" class="btn">Tutorial</a>
@@ -24,25 +24,25 @@
     </section>
 
 <section class="main-content">
-    <h1 >The latest news </h1>
+    
+	    <h1 id="Quote">Note</h1>
+    <p>If you use PDD Graph data in your work, please cite the following publication:</p>
+
+        <li><i> PDD Graph: Bridging Electronic Medical Records and Biomedical Knowledge Graphs via Entity Linking</i>. In International Semantic Web Conference (ISWC 2017). Springer International Publishing. (<a target="_blank" href="https://arxiv.org/pdf/1707.05340.pdf"  >arxiv pdf</a>) </li>
+
+        <p>We ask that users who download significant portions of the database cite the MIMIC-III paper in any resulting publications.</p>
+        <li style="margin-top: 15px"><i>MIMIC-III, a freely accessible critical care database</i>. Scientific data, 3.  (<a target="_blank" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4878278/"  >PMC version</a>)</li>
+
+	<h1 >The latest news </h1>
 
     <p>We have released version 1.2.</p>
     <p>In the new version, we have eliminated an engineering bug that was made when label matching of ICD-9 codes. This bug results in the linking failures of 380 diseases in MIMIC-III.</p>
     <p> For diseases in the latest PDD version, the overall number of diseases is 6985, and 6,983 diseases are connected to ICD-9 ontology. The only two failed matching codes are '71970' and 'NULL', which are not included in ICD-9 ontology.
      </p>
 
-    <h1 id="Quote">Note </h1>
-    <p>If you use PDD Graph data in your work, please cite the following publication:</p>
-
-        <li><i> Wang, M., Zheng, J., Liu, J., Hu, W., Wang, S., Li, X., & Liu, W. (2017, October). PDD Graph: Bridging Electronic Medical Records and Biomedical Knowledge Graphs via Entity Linking. In International Semantic Web Conference(ISWC 2017). Springer International Publishing.</i></li>
-
-        <p>We ask that users who download significant portions of the database cite the MIMIC-III paper in any resulting publications.</p>
-        <li style="margin-top: 15px"><i>MIMIC-III, a freely accessible critical care database. Johnson AEW, Pollard TJ,
-        Shen L,
-        Lehman L, Feng M, Ghassemi M, Moody B, Szolovits P, Celi LA, and Mark RG. Scientific Data (2016). DOI: 10.1038/sdata.2016.35. </i></li>
 
 
-<h1 id="Introduction">Introduction </h1>
+<h1 id="Introduction">Introduction</h1>
 
     The <strong>gap</strong> between clinical data and biomedical knowledge graphs:
     <ul>
@@ -55,11 +55,11 @@
     <img src="my/intro.jpg" alt="intro">
 
 
-   <p> What is <strong>PDD Graph </strong> (Patient-Disease-Drug Graph):</p>
+   <p> What is <strong>PDD Graph</strong> (Patient-Disease-Drug Graph):</p>
 
    <p> Electronic medical records contain multi-format electronic medical data that consist of an abundance of medical knowledge. Facing with patients symptoms, experienced caregivers make right medical decisions based on their professional knowledge that accurately grasps relationships between symptoms, diagnosis, and treatments. We aim to capture these relationships by constructing a large and high-quality heterogeneous graph linking patients, diseases, and drugs (PDD) in EMRs.</p>
 
-    <P>Specifically, we extract important medical entities from MIMIC-III (Medical Information Mart for Intensive Care III) and automatically link them with the existing biomedical knowledge graphs, including ICD-9 ontology and DrugBank. The PDD graph presented is accessible on the Web via the SPARQL endpoint, and provides a pathway for medical discovery and applications, such as effective treatment recommendations.</p>
+    <P>Specifically, we extract important medical entities from MIMIC-III (Medical Information Mart for Intensive Care III) and automatically link them with the existing biomedical knowledge graphs, including ICD-9 ontology and DrugBank. The PDD graph is accessible on the Web via the SPARQL endpoint, and provides a pathway for medical discovery and applications, such as effective treatment recommendations.</p>
 
     <p>A subgraph of PDD is illustrated in the following figure to better understand the PDD graph.</p>
 
@@ -82,15 +82,15 @@ Formatted by Apache Jena TDB , you can user it in Jena API.
 
 
 <h1>Friendly Link</h1>
-<p>Our data uses other data, so we make a statement here.</p>
+<p>Our data uses other resources, so we make a statement here.</p>
 
 <ul>
   <li><a href="https://mimic.physionet.org/" target="_blank" >MIMIC-III</a></li>
   <li><a href="http://bio2rdf.org/" target="_blank" >Bio2RDF </a></li>
   <li>DrugBank
     <ul>
-        <li><a href="https://datahub.io/dataset/bio2rdf-drugbank" target="_blank" >version 1   </a></li>
-        <li><a href="http://wifo5-03.informatik.uni-mannheim.de/drugbank/" target="_blank" >version 2  </a></li>
+        <li><a href="https://datahub.io/dataset/bio2rdf-drugbank" target="_blank" >version 1 (Bio2RDF DrugBank in DataHub) </a></li>
+        <li><a href="http://wifo5-03.informatik.uni-mannheim.de/drugbank/" target="_blank" >version 2  (Linking Open Drug Data) </a></li>
     </ul>
   </li>
   <li><a href="http://bioportal.bioontology.org/ontologies/ICD9CM" target="_blank" >ICD-9 ontology   </a></li>
@@ -105,6 +105,7 @@ Formatted by Apache Jena TDB , you can user it in Jena API.
     <h1 id="contact">Contact</h1>
 
     <li>Meng Wang <a href="mailto:wangmengsd@stu.xjtu.edu.cn">wangmengsd@stu.xjtu.edu.cn</a></li>
+    <li>Lei Shi <a href="mailto:me@xjtushilei.com">me@xjtushilei.com</a></li>
 
 
 

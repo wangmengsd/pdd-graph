@@ -115,6 +115,20 @@
     </code></pre>
     </p>
         <img src="my/example4.png" alt="">
+	<p id="example5">5. The patients who have taken in the drugs that interact with each other </p>
+    <p>
+    <pre><code>
+SELECT  ?s
+WHERE {
+	?s &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://kmap.xjtudlc.com/pdd_data/vocabulary:Admission&gt;.
+	?s &lt;http://kmap.xjtudlc.com/pdd_data/property/take_drugbank_id&gt; ?drug1.
+	?s &lt;http://kmap.xjtudlc.com/pdd_data/property/take_drugbank_id&gt; ?drug2.
+	?drug1 &lt;http://kmap.xjtudlc.com/pdd_data/property/interact&gt; ?drug2
+} 
+limit  30
+    </code></pre>
+    </p>
+        <img src="my/example5.png" alt="">
 
 
 

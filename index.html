@@ -28,17 +28,18 @@
 	    <h1 id="Quote">Note</h1>
     <p>If you use PDD Graph data in your work, please cite the following publication:</p>
 
-        <li><i> PDD Graph: Bridging Electronic Medical Records and Biomedical Knowledge Graphs via Entity Linking</i>. In International Semantic Web Conference (ISWC 2017). Springer International Publishing. (<a target="_blank" href="https://arxiv.org/pdf/1707.05340.pdf"  >arxiv pdf</a>) </li>
+        <li><i>   PDD Graph: Bridging Electronic Medical Records and Biomedical Knowledge Graphs via Entity Linking.</i>  In International Semantic Web Conference (ISWC). Springer, Cham, 2017: 219-227.
+(<a target="_blank" href="https://arxiv.org/pdf/1707.05340.pdf"  >arxiv pdf</a>) </li>
 
         <p>We ask that users who download significant portions of the database cite the MIMIC-III paper in any resulting publications.</p>
         <li style="margin-top: 15px"><i>MIMIC-III, a freely accessible critical care database</i>. Scientific data, 3.  (<a target="_blank" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4878278/"  >PMC version</a>)</li>
 
 	<h1 >The latest news </h1>
 
-    <p>We have released version 1.2.</p>
-    <p>In the new version, we have eliminated an engineering bug that was made when label matching of ICD-9 codes. This bug results in the linking failures of 380 diseases in MIMIC-III.</p>
-    <p> For diseases in the latest PDD version, the overall number of diseases is 6985, and 6,983 diseases are connected to ICD-9 ontology. The only two failed matching codes are '71970' and 'NULL', which are not included in ICD-9 ontology.
-     </p>
+     <p>We have attached DDI triples in the latest version 1.3. These DDI triples are extracted from DrugBank and will be applied to conveniently retrieve the possible adverse drug combinations taken by corresponding patients. 
+	 
+	 <p>A specific example please refer to the Tutorial  <a href="http://kmap.xjtudlc.com/pdd/Tutorial.html#example5">SPARQL Query Example5</a></p>
+</p>
 
 
 
@@ -112,6 +113,14 @@ Formatted by Apache Jena TDB , you can user it in Jena API.
     <h1 id="update">Update</h1>
 
 <ul>
+	<li>
+        <h3>V1.3</h3>
+        <p>We have attached DDI triples in the latest version 1.3. These DDI triples are extracted from DrugBank and will be applied to conveniently retrieve the possible adverse drug combinations taken by corresponding patients. 
+</p>
+	 <p>A specific example please refer to the Tutorial  <a href="http://kmap.xjtudlc.com/pdd/Tutorial.html#example5">SPARQL Query Example5</a></p>
+
+       
+    </li>
     <li>
         <h3>V1.2</h3>
         <p>Fix the bugs in "diagnose_icd_information.nt".</p>

@@ -2,17 +2,13 @@
 
 # The latest news
 
-We have released version 1.2
-
-In the new version, we have eliminated an engineering bug that was made when label matching of ICD-9 codes. This bug results in the linking failures of 380 diseases in MIMIC-III.
-
-For diseases in the latest PDD version, the overall number of diseases is 6985, and 6,983 diseases are connected to ICD-9 ontology. The only two failed matching codes are '71970' and 'NULL', which are not included in ICD-9 ontology.
+[Go](http://kmap.xjtudlc.com/pdd/index.html )
 
 # Note
 
 If you use PDD Graph data in your work, please cite the following publication:
 
-*   _Wang, M., Zheng, J., Liu, J., Hu, W., Wang, S., Li, X., & Liu, W. (2017, October). PDD Graph: Bridging Electronic Medical Records and Biomedical Knowledge Graphs via Entity Linking. In International Semantic Web Conference(ISWC 2017). Springer International Publishing._
+*   _Wang, M., Zheng, J., Liu, J., Hu, W., Wang, S., Li, X., & Liu, W. (2017, October). PDD Graph: Bridging Electronic Medical Records and Biomedical Knowledge Graphs via Entity Linking. In International Semantic Web Conference (ISWC). Springer, Cham, 2017: 219-227._
 
 We ask that users who download significant portions of the database cite the MIMIC-III paper in any resulting publications.
 
@@ -81,6 +77,13 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 
 
 # Update
+
+*    ### V1.3
+
+       We have attached DDI triples in the latest version 1.3. These DDI triples are extracted from DrugBank and will be applied to conveniently retrieve the possible adverse drug combinations taken by corresponding patients.
+
+     A specific example please refer to the Tutorial [SPARQL Query Example5](http://kmap.xjtudlc.com/pdd/Tutorial.html#example5)
+
 
 *   ### V1.2
 

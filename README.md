@@ -2,7 +2,7 @@
 
 # The latest news
 
-[Go](http://kmap.xjtudlc.com/pdd/index.html )
+We just released the new version 1.4!  [Go](http://kmap.xjtudlc.com/pdd/index.html )
 
 # Note
 
@@ -40,11 +40,11 @@ A subgraph of PDD is illustrated in the following figure to better understand th
 
 You can download it from different places. We offer two different formats in this site .
 
-#### [Format 1：N-Triples](http://kmap.xjtudlc.com/pdd/data/pdd_nt.zip)
+#### [Format 1：N-Triples](https://pan.baidu.com/s/1pLh0UpX)
 
 RDF data files ended by _.nt_.
 
-#### [Format 2：Apache Jena](http://kmap.xjtudlc.com/pdd/data/pdd_jena_tdb.zip)
+#### [Format 2：Apache Jena](https://pan.baidu.com/s/1cEvLeu)
 
 Formatted by Apache Jena TDB , you can user it in Jena API.
 

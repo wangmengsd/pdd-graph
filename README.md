@@ -78,11 +78,16 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 
 # Update
 
+*    ### V1.4
+     
+     In the new version 1.4, we add detailed information about the prescriptions, including the dosage, the duration and so on. These information will be applied to conveniently retrieve the exact adverse drug combinations taken by corresponding patients.
+
+
+     A specific example please refer to the Tutorial [SPARQL Query Example5](http://kmap.xjtudlc.com/pdd/Tutorial.html#example5)
+
 *    ### V1.3
 
        We have attached DDI triples in the latest version 1.3. These DDI triples are extracted from DrugBank and will be applied to conveniently retrieve the possible adverse drug combinations taken by corresponding patients.
-
-     A specific example please refer to the Tutorial [SPARQL Query Example5](http://kmap.xjtudlc.com/pdd/Tutorial.html#example5)
 
 
 *   ### V1.2

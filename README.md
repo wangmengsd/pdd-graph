@@ -2,7 +2,7 @@
 
 # The latest news
 
-We just released the new version 1.4!  [Go](http://kmap.xjtudlc.com/pdd/index.html )
+We just released the new version 1.4!  [Go](http:/http://pdd.wangmengsd.com/ )
 
 # Note
 

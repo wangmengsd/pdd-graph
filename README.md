@@ -2,7 +2,7 @@
 
 # The latest news
 
-We just released the new version 1.4!  [Go](http:/http://pdd.wangmengsd.com/ )
+We just released the new version 1.4!  [Go](http://pdd.wangmengsd.com/ )
 
 # Note
 
@@ -40,11 +40,11 @@ A subgraph of PDD is illustrated in the following figure to better understand th
 
 You can download it from different places. We offer two different formats in this site .
 
-#### [Format 1：N-Triples](https://pan.baidu.com/s/1pLh0UpX)
+#### [Format 1：N-Triples](https://pan.baidu.com/s/1pLh0UpX) (passwd : ekow )
 
-RDF data files ended by _.nt_.
+RDF data files ended by _.nt_. 
 
-#### [Format 2：Apache Jena](https://pan.baidu.com/s/1cEvLeu)
+#### [Format 2：Apache Jena](https://pan.baidu.com/s/1cEvLeu)  (passwd : bd66 )
 
 Formatted by Apache Jena TDB , you can user it in Jena API.
 

@@ -40,11 +40,11 @@ A subgraph of PDD is illustrated in the following figure to better understand th
 
 You can download it from different places. We offer two different formats in this site .
 
-#### [Format 1：N-Triples](https://pan.baidu.com/s/1pLh0UpX) (passwd : ekow )
+#### [Format 1：N-Triples](https://pdd-1254410284.cos.ap-shanghai.myqcloud.com/pdd_nt.tar.gz)
 
 RDF data files ended by _.nt_. 
 
-#### [Format 2：Apache Jena](https://pan.baidu.com/s/1cEvLeu)  (passwd : bd66 )
+#### [Format 2：Apache Jena](https://pdd-1254410284.cos.ap-shanghai.myqcloud.com/pdd.tar.gz) 
 
 Formatted by Apache Jena TDB , you can user it in Jena API.
 
@@ -106,10 +106,10 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 
 [Github Pages](https://wangmengsd.github.io/pdd-graph/)
 
-[Website](http://kmap.xjtudlc.com/pdd)
+[Website](http://pdd.wangmengsd.com/)
 
 [DataHub URL](https://datahub.io/tl/dataset/pdd-graph)
 
-[Data dump](http://kmap.xjtudlc.com/pdd/data/pdd_nt.zip)
+[Data dump](http://pdd.wangmengsd.com/)
 
-[SPARQL endpoint](http://kmap.xjtudlc.com/pdd/dataset.html?tab=query&ds=/pdd)
+[SPARQL endpoint](http://pdd.wangmengsd.com/dataset.html?tab=query&ds=/pdd)

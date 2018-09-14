@@ -83,7 +83,7 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
      In the new version 1.4, we add detailed information about the prescriptions, including the dosage, the duration and so on. These information will be applied to conveniently retrieve the exact adverse drug combinations taken by corresponding patients.
 
 
-     A specific example please refer to the Tutorial [SPARQL Query Example5](http://kmap.xjtudlc.com/pdd/Tutorial.html#example5)
+     A specific example please refer to the Tutorial [SPARQL Query Example5](http://pdd.wangmengsd.com/Tutorial.html#example5)
 
 *    ### V1.3
 
